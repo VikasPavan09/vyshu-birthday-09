@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Vyshu ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- BIRTHDAY -->
+<div id="birthday" class="screen">
+<h1>🎂 Happy Birthday Vyshu ❤️</h1>
+<p>
+Today is not just a day...<br><br>
+It’s someone very special’s birthday ❤️
+</p>
+<button class="next" onclick="goMemory()">Continue ❤️</button>
+</div>
+
+<!-- MEMORY -->
+<div id="memory" class="screen hidden">
+<h1>📖 Our Story</h1>
+<p>
+4 months... but unforgettable ❤️<br><br>
+You became very special in my life.
+</p>
+<button class="next" onclick="goProposal()">Next 💍</button>
+</div>
+
+<!-- PROPOSAL -->
+<div id="proposal" class="screen hidden">
+
+<h1>❤️ Vyshuuu ❤️</h1>
+
+<p id="question">
+Will you be part of my life forever? ❤️
+</p>
+
+<div class="buttons" id="buttons">
+<button class="yes" onclick="showYes()">❤️ YES</button>
+<button class="no" onclick="showNo()">🌹 NO</button>
+</div>
+
+<div id="result" class="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
